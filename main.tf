@@ -16,7 +16,3 @@ resource "azurerm_storage_account" "sa-patlu" {
   account_replication_type = "GRS"
 }
 
-resource "azurerm_resource_group" "rg-del" {
-  name     = "rg-del"
-  location = "central India"
-}
